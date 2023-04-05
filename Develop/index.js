@@ -13,6 +13,41 @@ inquirer.prompt([
     name: 'description',
     message: 'Please provide a short description of your project:',
   },
+  {
+    type: 'input',
+    name: 'table of contents',
+    message: 'Please provide the table of contents of your project:',
+  },
+  {
+    type: 'input',
+    name: 'installation',
+    message: 'Please provide a installtion description of your project:',
+  },
+  {
+    type: 'input',
+    name: 'usage',
+    message: 'Please explain the usage of your project:',
+  },
+  {
+    type: 'input',
+    name: 'licence',
+    message: 'Please choose the licence that fits your project:',
+  },
+  {
+    type: 'input',
+    name: 'contributing',
+    message: 'Please add any contributers of your project:',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'Please provide a short description of your project:',
+  },
+  {
+    type: 'input',
+    name: 'questions',
+    message: 'Please provide your Github username and link:',
+  },
   // Add more questions here...
 ])
 .then((answers) => {
